@@ -1017,8 +1017,21 @@ justify-content: center;
             .home{
               width: 80%;
             }
+            .home p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
+              
+            }
             .clearfix{
               width: 85%;
+            }
+            .clearfix p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
+            }
+            .clearfix1 p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
             }
             
             .clearfix1{
