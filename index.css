@@ -801,6 +801,19 @@ justify-content: center;
          
          
       }
+	.home p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
+              
+            }
+            .clearfix p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
+            }
+            .clearfix1 p{
+              font-size: 14px;
+              font-family: 'Merriweather', serif;
+            }
       
       .underline{
         margin-top: 5vh;
