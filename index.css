@@ -87,8 +87,8 @@ body{
 .about{
        
   position: absolute;
-  top: 60%; 
-  left: 30%;
+  top: 50%; 
+  left: 40%;
   width: 80vh;
  
  
@@ -764,12 +764,13 @@ justify-content: center;
       .about{
         font-size:  1.5rem;
         font-weight: 900;
-        width: 40%;
-        margin-left: 7%;
-        margin-top: -4%;
+        width: 34%;
+        margin-left: 20%;
+        margin-top: -10%;
       }
     .profile{
       width: 90%;
+      margin-top: -1vh;
       
     }
     .profile p{
@@ -792,16 +793,18 @@ justify-content: center;
     .clearfix{
         margin: auto;
           width: 30vh;
+         
       }
       .clearfix1{
         margin: auto;
           width: 30vh;
          
+         
       }
       
       .underline{
         margin-top: 5vh;
-        margin-bottom: 2vh;
+        
         width: 60%;
       }
       .heading1{
@@ -861,6 +864,7 @@ justify-content: center;
         grid-auto-flow: dense;
         
       background-color: black;
+      margin-bottom: -5vh;
       padding: 10px;
         
       }
@@ -920,6 +924,334 @@ justify-content: center;
               width: 90%;
             }
           }
-      
+          @media (min-width: 577px ) and (max-width: 768px ){
+            .container{
+              width: 100%;
+              max-width:100%;
+              min-width: 100%;
+              
+              height: 330px
+            }
+            .pic{
+              width: 50%;
+            margin-left: -27%;
+            margin-top: -10vh;
+            }
+            .pic img{
+              width: 25vh;
+              height: 25vh;
+              border-width: 6px;
+            }
+            .header-bar{
+              margin-top: 0px;
+              height: 50px;
+              border: 8px solid transparent;
+        border-top: 8px solid yellow;
+        border-left: 8px solid yellow;
+            }
+            .header-bar::after{
+              top: -8px;
+        right: -8px;
+        height: 39px;
+              border: 8px solid transparent;
+        border-bottom: 8px solid yellow;
+        border-right: 8px solid yellow;
+            }
+            .slider-menu li a{
+              padding: 10px;
+              font-size: 70%;
+            }
+            .about{
+              font-size:  1.9rem;
+              font-weight: 900;
+              width: 30%;
+              margin-left: 25%;
+              margin-top: -3%;
+            }
+          .profile{
+            width: 80%;
+            margin-top: -1vh;
+            
+          }
+          
+          .yellow{
+            
+            padding: 60px 10px;
+            
+          }
+          .profile img{
+            width: 25vh;
+            height: 25vh;
+            border-width: 5px;
+          }
+          .clearfix{
+              margin: auto;
+                width: 30vh;
+               
+            }
+            .clearfix1{
+              margin: auto;
+                width: 30vh;
+               
+               
+            }
+            
+            .underline{
+              margin-top: 5vh;
+              
+              width: 60%;
+            }
+            .heading1{
+              font-size: 2rem;
+              margin-bottom: 5vh;
+            }
+             .container1{
+             
+              justify-content: center;
+              margin: 0 auto;
+              width: 80%;
+              margin: auto;
+              
+             
+            }
+            .home{
+              width: 80%;
+            }
+            .clearfix{
+              width: 85%;
+            }
+            
+            .clearfix1{
+              width: 85%;
+            }
+            .img2 img{
+              height: 35vh;
+              width: 35vh;
+            }
+            .img1 img{
+              height: 35vh;
+              width: 35vh;
+            }
+            /* .clearfix p span{
+              margin-top: 60px;
+            }
+            .clearfix1 p span{
+              margin-top: 20px;
+            } */
+            .container1 .testimotionals{
+              width: 280px;
+             
+              
+             
+             }
+            .testimotionals .card{
+              width: 290px;
+              left: 0px;
+             
+            }
+           
+            .grid-wrapper {
+              display: grid;
+              margin: 90px 20px;
+              grid-template-columns: auto auto auto;
+              grid-auto-rows: 100px;
+              grid-auto-flow: dense;
+              
+            background-color: black;
+            margin-bottom: -5vh;
+            padding: 10px;
+              
+            }
+            .list-type5{
+              width:80%;
+              
+             
+              
+              }
+              .list-type5 ol li{
+               
+                margin-bottom: 1em;
+                padding: 1em;
+                padding-left: 48px;
+                }
+                .list-type5 a{
+                  font-size: 14px;
+                }
+                .cards-list .card .card_title {
+                  font-size: 90%;
+                 
+                }
+                .box2 {
+                  display: grid;
+              
+                  justify-content: center;
+                    margin: 0px auto;
+                      grid-gap: 10px;
+                      width: 20;
+                      grid-template-columns: repeat(auto-fit, minmax(300px, 74fr));
+                    
+                      grid-auto-flow: dense;
+                      padding :0px 15px ;
+                      
+                    }
+                  .card2{
+                    width: 80%;
+                   
+                   
+                  }
+                  footer .content{
+                    max-width: 390px;
+                    margin: auto;
+                    padding: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                  }
+                  footer .content .topic{
+                    font-size: 20px;
+                  }
+                  footer .content p,a{
+                    
+                    font-size: 16px;
+                    
+                  }
+                  footer .content .right input[type="text"]{
+                    width: 90%;
+                  }
+                }
+                @media (min-width: 769px ) and (max-width: 1020px ){
+                  .container{
+                    width: 100%;
+                    max-width:100%;
+                    min-width: 100%;
+                    
+                    height: 430px
+                  }
+                  .pic{
+                    width: 50%;
+                  margin-left: -27%;
+                  margin-top: -5vh;
+                  }
+                  .pic img{
+                    width: 35vh;
+                    height: 35vh;
+                    border-width: 6px;
+                  }
+                  
+                 
+                  .about{
+                    font-size:  3rem;
+                    font-weight: 900;
+                    width: 30%;
+                    margin-left: 28%;
+                    margin-top: -5%;
+                  }
+                
+               
+                .clearfix{
+                    margin: auto;
+                      width: 30vh;
+                     
+                  }
+                  .clearfix1{
+                    margin: auto;
+                      width: 30vh;
+                     
+                     
+                  }
+                  
+                  .underline{
+                    margin-top: 5vh;
+                    
+                    width: 60%;
+                  }
+                  
+                   .container1{
+                   
+                    justify-content: center;
+                    margin: 0 auto;
+                    width: 80%;
+                    margin: auto;
+                    
+                   
+                  }
+                  .home{
+                    width: 80%;
+                  }
+                  .clearfix{
+                    width: 85%;
+                  }
+                  
+                  .clearfix1{
+                    width: 85%;
+                  }
+                  .img2 img{
+                    height: 35vh;
+                    width: 35vh;
+                  }
+                  .img1 img{
+                    height: 35vh;
+                    width: 35vh;
+                  }
+                  /* .clearfix p span{
+                    margin-top: 60px;
+                  }
+                  .clearfix1 p span{
+                    margin-top: 20px;
+                  } */
+                 
+                 
+                  .grid-wrapper {
+                    display: grid;
+                    margin: 90px 20px;
+                    grid-template-columns: auto auto auto;
+                    grid-auto-rows: 200px;
+                    grid-auto-flow: dense;
+                    
+                  background-color: black;
+                  margin-bottom: -5vh;
+                  padding: 10px;
+                    
+                  }
+                  .list-type5{
+                    width:80%;
+                    
+                   
+                    
+                    }
+                    .list-type5 ol li{
+                     
+                      margin-bottom: 1em;
+                      padding: 1em;
+                      padding-left: 48px;
+                      }
+                      .list-type5 a{
+                        font-size: 14px;
+                      }
+                      .cards-list .card .card_title {
+                        font-size: 90%;
+                       
+                      }
+                      .box2 {
+                        display: grid;
+                    
+                        justify-content: center;
+                          margin: 0px auto;
+                            grid-gap: 10px;
+                            width: 20;
+                            grid-template-columns: repeat(auto-fit, minmax(300px, 74fr));
+                          
+                            grid-auto-flow: dense;
+                            padding :0px 15px ;
+                            
+                          }
+                        .card2{
+                          width: 80%;
+                         
+                        }
+                        
+                      }
+                  
+            
       
   
